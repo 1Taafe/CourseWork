@@ -1,0 +1,690 @@
+.brandsBar{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding: 0 !important;
+}
+
+.brands{
+    text-align: center;
+    transition: all 0.4s;
+    line-height: 40px;
+    color: white;
+    text-decoration: none;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: black;
+    font-size: 18px;
+    font-weight: 300;
+    width: 100%;
+    border-bottom: 2px solid black;
+    border-radius: 60px;
+}
+
+.activeBrand{
+    border-bottom: 2px solid red;
+}
+
+.openedCatalogLink{
+    background-color: gainsboro;
+    color: black;
+    border-bottom: 2px solid gainsboro;
+}
+
+.brands:hover{
+    background-color: gainsboro;
+    color: black;
+    border-bottom: 2px solid gainsboro;
+}
+
+.sliderBox{
+    padding: 0 !important;
+}
+
+.activeItems .items{
+    height: calc(100vh - 140px);
+}
+
+.carousel-caption{
+    border-radius: 40px;
+    top: 2rem;
+    bottom: auto !important;
+    text-align: center !important;
+    font-size: 48px;
+    background-color: rgba(0,0,0, 0.5);
+    font-weight: 200;
+}
+
+.items{
+    display: inline-flexbox;
+    height: calc(100vh - 142px);
+    min-height: 390px;
+}
+
+.item1{
+    background-image: url(../img/sony.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.item2{
+    background-image: url(../img/jbl.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.item3{
+    background-image: url(../img/xiaomi.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.item4{
+    background-image: url(../img/apple.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.cButton{
+    transition: all 0.32s;
+    position: absolute;
+    display: block;
+    background-color: gainsboro;
+    height: 70px;
+    width: 240px;
+    bottom: 16%;
+    right: 24%;
+    text-decoration: none;
+    color: black;
+    line-height: 70px;
+    border-radius: 60px 16px 60px 16px;
+    text-align: center;
+    font-size: larger;
+}
+
+.cButton:hover{
+    color: white;
+    background-color: #2C7BFF;
+}
+
+.cardsRow{
+    padding-bottom: 100px;
+}
+
+.activeCardsRow{
+    padding-bottom: 650px;
+}
+
+.catalogCards{
+    border-radius: 32px;
+    margin: 16px 24px 32px 24px;
+    border: 1px solid rgba(0,0,0, 0.2);
+    padding: 16px;
+    min-height: 390px;
+}
+
+@media (min-width: 992px) and (max-width: 1420px){
+    .catalogCards{
+        min-height: 440px;
+    }
+}
+
+@media (max-width: 991.98px) and (max-width: 1420px){
+    .catalogCards{
+        min-height: auto;
+    }
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+}
+
+.catalogCards img{
+    height: 100px; 
+    width: auto;
+    display: block; 
+    margin: 0 auto; 
+    padding: 16px;
+}
+
+.cardButton{
+    transition: 0.4s all;
+    display: block;
+    position: relative;
+    border-radius: 20px;
+    color: #FF0000;
+    background-color: white;
+    text-decoration: none;
+    width: 96%;
+    max-width: 200px;
+    text-align: center;
+    border: 2px solid #FF0000;
+    padding: 10px 20px 10px 20px;
+    align-self: center;
+    cursor: pointer;
+}
+
+.aboutButton{
+    cursor: pointer;
+    transition: 0.4s all;
+    display: block;
+    position: relative;
+    color: white;
+    background-color: #2C7BFF;
+    text-decoration: none;
+    text-align: center;
+    align-self: center;
+    width: 120px;
+    border: 2px solid #2C7BFF;
+    border-bottom: 0px solid white;
+    margin: 0 auto;
+    margin-top: auto;
+    border-radius: 8px 8px 0 0;
+}
+
+.aboutButton:hover{
+    background-color: white;
+    color: #2C7BFF;
+}
+
+.cardButton:hover{
+    text-decoration: none;
+    color: white;
+    background-color: #FF0000;
+}
+
+.card-subtitle{
+    margin-top: 6px;
+    line-height: 12px;
+}
+
+.cardCost{
+    margin: 0 auto;
+    text-align: center;
+    background-color: gold;
+    width: 100px;
+    border-radius: 0 0 16px 16px;
+    padding: 4px;
+}
+
+.cardFeatures{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+}
+
+.cardFeatures div{
+    background-color: #2C7BFF;
+    color: white;
+    border-radius: 20px;
+    font-weight: 300;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.cardFeatures div:first-of-type{
+    background-color: rgb(255, 0, 0);
+}
+
+.closeInfo{
+    position: absolute;
+    display: block;
+    padding: 8px;
+    font-size: 40px;
+    color: red;
+    width: 52px;
+    text-align: center;
+    top: 6px;
+    right: 12px;
+}
+
+.cardMoreInfo{
+    display: flex;
+    position: absolute;
+    width: 88%;
+    background-color: white;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 32px;
+    padding-bottom: 64px;
+    transition: 1s all;
+    transform: scaleX(0);
+    z-index: 5;
+    border: 1px solid rgba(37, 22, 22, 0.149);
+    border-radius: 24px;
+    left: 50%;
+    margin-left: -44%;
+}
+
+@media (max-width: 993px){
+    .cardMoreInfo{
+        flex-direction: column-reverse;
+    }
+    .fullInfo{
+        padding-top: 16px;
+    }
+    .activeCardsRow{
+        padding-bottom: 900px;
+    }
+    .card-subtitle{
+        text-align: center;
+    }
+    .card-title{
+        text-align: center;
+    }
+}
+
+.cardInfoModelName{
+    font-size: 24px;
+}
+
+.cardInfoButton{
+    transition: 0.4s all;
+    display: block;
+    position: relative;
+    border-radius: 20px;
+    color: #FF0000;
+    background-color: white;
+    text-decoration: none;
+    width: 80%;
+    max-width: 200px;
+    text-align: center;
+    border: 2px solid #FF0000;
+    padding: 10px 20px 10px 20px;
+    align-self: center;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.cardInfoButton:hover{
+    text-decoration: none;
+    color: white;
+    background-color: #FF0000;
+}
+
+.activeCardMoreInfo{
+    transform: scaleX(100%);
+}
+
+.fullInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.fullInfo .cardButton{
+    margin-top: 16px;
+}
+
+.infoCost{
+    text-align: center;
+    background-color: gold;
+    width: 100px;
+    border-radius: 0 0 16px 16px;
+    padding: 4px;
+    margin: 0 auto;
+}
+
+@media (min-width: 992.22px) and (max-width: 1200px){
+    .catalogCards{
+        margin: 16px 8px 32px 8px;
+        padding: 8px;
+    }
+    .cardMoreInfo img{
+        padding-right: 100px;
+    }
+    .fullInfo{
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+}
+
+.catalogTitle{
+    padding: 60px;
+    display: flex;
+    font-size: 84px;
+    justify-content: flex-start;
+    line-height: 84px;
+}
+
+.catalogTitle2{
+    padding: 40px;
+    display: flex;
+    font-size: 84px;
+    justify-content: flex-start;
+    line-height: 84px;
+    margin-top: 32px;
+}
+
+.accordion-button:not(.collapsed){
+    background-color: transparent;
+    color: black;
+}
+
+.accordion-button{
+    justify-content: flex-start;
+}
+
+.itemInfo{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.infoBox{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.textInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.features{
+    margin-top: 8px;
+    display: flex;
+    flex-direction: row;
+}
+
+.itemImage{
+    display: flex;
+    margin-right: 20px;
+    align-items: center;
+}
+
+.itemImage img{
+    height: auto;
+    width: 60px;
+}
+
+.modelName{
+    font-size: 24px;
+}
+
+.cardModelName{
+    font-size: 24px;
+}
+
+.fullName{
+    line-height: 20px;
+}
+
+.features div{
+    background-color: #2C7BFF;
+    margin-right: 10px;
+    color: white;
+    padding: 4px 10px 4px 10px;
+    border-radius: 20px;
+    white-space: nowrap;
+    font-weight: 300;
+}
+
+.cost{
+    background-color: gold;
+    padding: 16px 32px 16px 32px;
+    border-radius: 40px 10px 40px 10px;
+    margin-right: 6%;
+    margin-left: 2%;
+    white-space: nowrap;
+}
+
+@media (max-width: 1110px) { 
+    .carousel-caption{
+        font-size: 28px !important;
+    }
+}
+
+@media (max-width: 1235px) { 
+
+    .features div{
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 850px) { 
+
+    .features{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .itemInfo{
+        flex-direction: column;
+    }
+    .cost{
+        margin: 0;
+    }
+    .features div{
+        margin-bottom: 10px;
+        text-align: center;
+        font-size: 12px;
+    }
+}
+
+.fullSpecs{
+    font-family: 'Exo 2', Tahoma;
+    font-size: 18px;
+    white-space: pre-line;
+}
+
+.buyButton{
+    transition: 0.4s all;
+    display: block;
+    position: relative;
+    padding: 16px 40px 16px 40px;
+    border-radius: 20px;
+    color: #FF0000;
+    background-color: white;
+    text-decoration: none;
+    max-width: 16%;
+    min-width: 160px;
+    text-align: center;
+    border: 2px solid #FF0000;
+    align-self: flex-end;
+}
+
+.buyButton:hover{
+    text-decoration: none;
+    color: white;
+    background-color: #FF0000;
+    border-bottom-right-radius: 50px;
+}
+
+.accordion-body{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+a:hover{
+    cursor: pointer;
+}
+
+
+.myCatalog{
+    padding-bottom: 20px;
+}
+
+.rowCatalog{
+    z-index: 10;
+    margin-top: 0;
+    display: none;
+    transition: 1s all;
+    background-color: white;
+}
+
+.cartTitle{
+    font-size: 80px;
+    text-align: right;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.orderForm{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    margin-top: 60px;
+    box-shadow: 0 0 10px red;
+    padding: 40px;
+    padding-bottom: 100px;
+    background-color: white;
+    border-radius: 80px;
+}
+
+.myInput{
+    border-radius: 56px;
+    border: 2px solid black;
+    margin-bottom: 16px;
+    outline: none;
+    transition: 0.6s all;
+    padding: 2px;
+    padding-left: 8px;
+}
+
+.myInput:focus{
+    border: 2px solid red;
+    padding: 12px;
+}
+
+.myInput:focus + .myLabel{
+    background-color: red;
+}
+
+.myLabel{
+    color: white;
+    background-color: black;
+    width: 160px;
+    margin-left: 20px;
+    text-align: center;
+    border-radius: 40px 40px 0 0;
+    transition: 0.6s all;
+}
+
+.cartRow{
+    background-color: black;
+    padding-bottom: 100px;
+    display: none;
+}
+
+.cartRowActive{
+    display: flex;
+}
+
+.myButton{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    background-color: red;
+    color: white;
+    border: 0;
+    padding: 20px;
+    border-radius: 80px 20px 80px 20px;
+    transition: 0.4s all;
+}
+
+.myButton:hover{
+    background-color: white;
+    box-shadow: 0 0 10px red;
+    color: black;
+}
+
+.orderForm i{
+    color: red;
+    font-size: 48px;
+    position: absolute;
+    cursor: pointer;
+}
+
+@media (max-width: 600px) { 
+    .items{
+        height: calc(100vh - 92px);
+    }
+    .activeItems .items{
+        height: calc(100vh - 292px);
+    }
+    .catalogTitle2{
+        font-size: 64px;
+    }
+ }
+
+ @media (max-width: 600px) { 
+    .bar{
+        height: 50px;
+        background-color: black !important;
+    }
+    .siteTitle{
+        color: white !important;
+    }
+    .line3{
+        background-color: white !important;
+    }
+    .line2{
+        background-color: white !important;
+    }
+    .line1{
+        background-color: white !important;
+    }
+ }
+
+ .activeMenuButton .line1{
+    background-color: red !important;
+}
+
+.activeMenuButton .line2{
+    background-color: transparent !important;
+}
+
+.activeMenuButton .line3{
+    background-color: red !important; 
+}
+
+.footerRow{
+    background-color: black;
+    color: white;
+    margin-top: 0px;
+}
+
+.accordion-item:first-of-type .accordion-button{
+    border-top-left-radius: calc(3.5rem - 1px) !important;
+    border-top-right-radius: calc(3.5rem - 1px) !important;
+}
+
+.accordion-item:last-of-type .accordion-button{
+    border-bottom-left-radius: calc(3.5rem - 1px) !important;
+    border-bottom-right-radius: calc(3.5rem - 1px) !important;
+}
+
+.accordion-item:first-of-type{
+    border-top-left-radius: 3.5rem !important;
+    border-top-right-radius: 3.5rem !important;
+}
+
+.accordion-item:last-of-type{
+    border-bottom-left-radius: 3.5rem !important;
+    border-bottom-right-radius: 3.5rem !important;
+}
+
+.accordion-item{
+    border: 1px solid rgba(0,0,0, 0.2)
+}
+
+.sticky-top{
+    top: -1px !important;
+}

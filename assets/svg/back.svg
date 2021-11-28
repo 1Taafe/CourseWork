@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <clipPath id="clip-Web_1920_4">
+      <rect width="1920" height="1080"/>
+    </clipPath>
+  </defs>
+  <g id="Web_1920_4" data-name="Web 1920 – 4" clip-path="url(#clip-Web_1920_4)">
+    <rect width="1920" height="1080" fill="#fff"/>
+    <text id="Offstore" transform="translate(0 744)" fill="#fff" stroke="#707070" stroke-width="1" font-size="120" font-family="Tahoma"><tspan x="0" y="0">Offstore</tspan>
+      <animate attributeName="stroke" from="#707070" to="red" dur="10s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-width" from="1" to="2" dur="10s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-dasharray" from="0" to="500" dur="10s" repeatCount="indefinite"/>
+      
+    </text>
+    <text id="Offstore-2" data-name="Offstore" transform="translate(449 744)" fill="#fff" stroke="#707070" stroke-width="1" font-size="120" font-family="Tahoma"><tspan x="0" y="0">Offstore</tspan></text>
+    <text id="Offstore-3" data-name="Offstore" transform="translate(898 744)" fill="#fff" stroke="#707070" stroke-width="1" font-size="120" font-family="Tahoma">
+      <animate attributeName="stroke" from="#707070" to="red" dur="10s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-width" from="1" to="2" dur="10s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-dasharray" from="0" to="500" dur="10s" repeatCount="indefinite"/>
+    <tspan x="0" y="0">Offstore</tspan></text>
+    <text id="Offstore-4" data-name="Offstore" transform="translate(1347 744)" fill="#fff" stroke="#707070" stroke-width="1" font-size="120" font-family="Tahoma"><tspan x="0" y="0">Offstore</tspan></text>
+    <text id="Offstore-5" data-name="Offstore" transform="translate(0 911)" fill="#fff" stroke="#707070" stroke-width="1" font-size="120" font-family="Tahoma"><tspan x="0" y="0">Offstore</tspan></text>
+    <text id="Offstore-6" data-name="Offstore" transform="translate(449 911)" fill="#fff" stroke="#707070" stroke-width="1" font-size="120" font-family="Tahoma"><tspan x="0" y="0">Offstore</tspan></text>
+    <text id="Offstore-7" data-name="Offstore" transform="translate(898 911)" fill="#fff" stroke="#707070" stroke-width="1" font-size="120" font-family="Tahoma"><tspan x="0" y="0">Offstore</tspan></text>
+    <text id="Offstore-8" data-name="Offstore" transform="translate(1347 911)" fill="#fff" stroke="#707070" stroke-width="1" font-size="120" font-family="Tahoma"><tspan x="0" y="0">Offstore</tspan></text>
+    <text id="Offstore-9" data-name="Offstore" transform="translate(0 1078)" fill="#fff" stroke="#707070" stroke-width="1" font-size="120" font-family="Tahoma"><tspan x="0" y="0">Offstore</tspan></text>
+    <text id="Offstore-10" data-name="Offstore" transform="translate(449 1078)" fill="#fff" stroke="#707070" stroke-width="1" font-size="120" font-family="Tahoma"><tspan x="0" y="0">Offstore</tspan></text>
+    <text id="Offstore-11" data-name="Offstore" transform="translate(898 1078)" fill="#fff" stroke="#707070" stroke-width="1" font-size="120" font-family="Tahoma"><tspan x="0" y="0">Offstore</tspan></text>
+    <text id="Offstore-12" data-name="Offstore" transform="translate(1347 1078)" fill="#fff" stroke="#707070" stroke-width="1" font-size="120" font-family="Tahoma"><tspan x="0" y="0">Offstore</tspan></text>
+    <text id="Offstore-13" data-name="Offstore" transform="translate(1 243)" fill="#fff" stroke="#707070" stroke-width="1" font-size="120" font-family="Tahoma">
+      <animate attributeName="stroke" from="#707070" to="red" dur="10s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-width" from="1" to="2" dur="10s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-dasharray" from="0" to="500" dur="10s" repeatCount="indefinite"/>
+    <tspan x="0" y="0">Offstore</tspan></text>
+    <text id="Offstore-14" data-name="Offstore" transform="translate(450 243)" fill="#fff" stroke="#707070" stroke-width="1" font-size="120" font-family="Tahoma"><tspan x="0" y="0">Offstore</tspan></text>
+    <text id="Offstore-15" data-name="Offstore" transform="translate(899 243)" fill="#fff" stroke="#707070" stroke-width="1" font-size="120" font-family="Tahoma">
+      <animate attributeName="stroke" from="#707070" to="red" dur="10s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-width" from="1" to="2" dur="10s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-dasharray" from="0" to="500" dur="10s" repeatCount="indefinite"/>
+    <tspan x="0" y="0">Offstore</tspan></text>
+    <text id="Offstore-16" data-name="Offstore" transform="translate(1348 243)" fill="#fff" stroke="#707070" stroke-width="1" font-size="120" font-family="Tahoma"><tspan x="0" y="0">Offstore</tspan></text>
+    <text id="Offstore-17" data-name="Offstore" transform="translate(1 410)" fill="#fff" stroke="#707070" stroke-width="1" font-size="120" font-family="Tahoma"><tspan x="0" y="0">Offstore</tspan></text>
+    <text id="Offstore-18" data-name="Offstore" transform="translate(450 410)" fill="#fff" stroke="#707070" stroke-width="1" font-size="120" font-family="Tahoma">
+      <animate attributeName="stroke" from="#707070" to="red" dur="10s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-width" from="1" to="2" dur="10s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-dasharray" from="0" to="500" dur="10s" repeatCount="indefinite"/>
+    <tspan x="0" y="0">Offstore</tspan></text>
+    <text id="Offstore-19" data-name="Offstore" transform="translate(899 410)" fill="#fff" stroke="#707070" stroke-width="1" font-size="120" font-family="Tahoma"><tspan x="0" y="0">Offstore</tspan></text>
+    <text id="Offstore-20" data-name="Offstore" transform="translate(1348 410)" fill="#fff" stroke="#707070" stroke-width="1" font-size="120" font-family="Tahoma">
+      <animate attributeName="stroke" from="#707070" to="red" dur="10s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-width" from="1" to="2" dur="10s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-dasharray" from="0" to="500" dur="10s" repeatCount="indefinite"/>
+    <tspan x="0" y="0">Offstore</tspan></text>
+    <text id="Offstore-21" data-name="Offstore" transform="translate(1 577)" fill="#fff" stroke="#707070" stroke-width="1" font-size="120" font-family="Tahoma"><tspan x="0" y="0">Offstore</tspan></text>
+    <text id="Offstore-22" data-name="Offstore" transform="translate(450 577)" fill="#fff" stroke="#707070" stroke-width="1" font-size="120" font-family="Tahoma">
+      <animate attributeName="stroke" from="#707070" to="red" dur="10s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-width" from="1" to="2" dur="10s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-dasharray" from="0" to="500" dur="10s" repeatCount="indefinite"/>
+    <tspan x="0" y="0">Offstore</tspan></text>
+    <text id="Offstore-23" data-name="Offstore" transform="translate(899 577)" fill="#fff" stroke="#707070" stroke-width="1" font-size="120" font-family="Tahoma"><tspan x="0" y="0">Offstore</tspan></text>
+    <text id="Offstore-24" data-name="Offstore" transform="translate(1348 577)" fill="#fff" stroke="#707070" stroke-width="1" font-size="120" font-family="Tahoma">
+      <animate attributeName="stroke" from="#707070" to="red" dur="10s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-width" from="1" to="2" dur="10s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-dasharray" from="0" to="500" dur="10s" repeatCount="indefinite"/>
+    <tspan x="0" y="0">Offstore</tspan></text>
+    <text id="Offstore-25" data-name="Offstore" transform="translate(1 98)" fill="#fff" stroke="#707070" stroke-width="1" font-size="120" font-family="Tahoma"><tspan x="0" y="0">Offstore</tspan></text>
+    <text id="Offstore-26" data-name="Offstore" transform="translate(450 98)" fill="#fff" stroke="#707070" stroke-width="1" font-size="120" font-family="Tahoma">
+      <animate attributeName="stroke" from="#707070" to="red" dur="10s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-width" from="1" to="2" dur="10s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-dasharray" from="0" to="500" dur="10s" repeatCount="indefinite"/>
+    <tspan x="0" y="0">Offstore</tspan></text>
+    <text id="Offstore-27" data-name="Offstore" transform="translate(899 98)" fill="#fff" stroke="#707070" stroke-width="1" font-size="120" font-family="Tahoma"><tspan x="0" y="0">Offstore</tspan></text>
+    <text id="Offstore-28" data-name="Offstore" transform="translate(1348 98)" fill="#fff" stroke="#707070" stroke-width="1" font-size="120" font-family="Tahoma">
+      <animate attributeName="stroke" from="#707070" to="red" dur="10s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-width" from="1" to="2" dur="10s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-dasharray" from="0" to="500" dur="10s" repeatCount="indefinite"/>
+    <tspan x="0" y="0">Offstore</tspan></text>
+    <text id="Offstore-29" data-name="Offstore" transform="translate(1796 744)" fill="#fff" stroke="#707070" stroke-width="1" font-size="120" font-family="Tahoma"><tspan x="0" y="0">Offstore</tspan></text>
+    <text id="Offstore-30" data-name="Offstore" transform="translate(1796 911)" fill="#fff" stroke="#707070" stroke-width="1" font-size="120" font-family="Tahoma"><tspan x="0" y="0">Offstore</tspan></text>
+    <text id="Offstore-31" data-name="Offstore" transform="translate(1796 1078)" fill="#fff" stroke="#707070" stroke-width="1" font-size="120" font-family="Tahoma"><tspan x="0" y="0">Offstore</tspan></text>
+    <text id="Offstore-32" data-name="Offstore" transform="translate(1797 243)" fill="#fff" stroke="#707070" stroke-width="1" font-size="120" font-family="Tahoma"><tspan x="0" y="0">Offstore</tspan></text>
+    <text id="Offstore-33" data-name="Offstore" transform="translate(1797 410)" fill="#fff" stroke="#707070" stroke-width="1" font-size="120" font-family="Tahoma"><tspan x="0" y="0">Offstore</tspan></text>
+    <text id="Offstore-34" data-name="Offstore" transform="translate(1797 577)" fill="#fff" stroke="#707070" stroke-width="1" font-size="120" font-family="Tahoma"><tspan x="0" y="0">Offstore</tspan></text>
+    <text id="Offstore-35" data-name="Offstore" transform="translate(1797 98)" fill="#fff" stroke="#707070" stroke-width="1" font-size="120" font-family="Tahoma"><tspan x="0" y="0">Offstore</tspan></text>
+  </g>
+</svg>
+

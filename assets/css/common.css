@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Exo 2', Tahoma;
+}
+
+.bar{
+    background-color: black;
+    height: 100px;
+}
+
+.bar span{
+    z-index: 10;
+}
+
+.menuBar{
+    background-color: red;
+    display: flex;
+    justify-content: center;
+}
+
+.menuButton{
+    z-index: 99;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    display: none;
+    cursor: pointer;
+}
+
+.activeMenuButton .line1{
+    top: 24px;
+    transform: rotate(135deg);
+    background-color: red;
+}
+
+.activeMenuButton .line2{
+    background-color: transparent;
+}
+
+.activeMenuButton .line3{
+    top: 24px;
+    transform: rotate(-135deg);
+    background-color: red;
+}
+
+.line1{
+    transition: all 0.4s;
+    position: absolute;
+    display: block;
+    height: 2px;
+    width: 30px;
+    background-color: white;
+    left: 10px;
+    top: 17px;
+}
+
+.line2{
+    transition: all 0.4s;
+    position: absolute;
+    display: block;
+    height: 2px;
+    width: 30px;
+    background-color: white;
+    left: 10px;
+    top: 24px;
+}
+
+.activeLine2{
+    background-color: transparent;
+}
+
+.line3{
+    transition: all 0.4s;
+    position: absolute;
+    display: block;
+    height: 2px;
+    width: 30px;
+    background-color: white;
+    left: 10px;
+    top: 31px;
+}
+
+.menuBar a{
+    transition: all 0.4s;
+    line-height: 50px;
+    color: white;
+    text-decoration: none;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: red;
+    font-size: 18px;
+}
+
+.menuBar .activeLink{
+    background-color: black;
+    color: white;
+}
+
+.menuBar a:hover{
+    background-color: rgb(151, 41, 41);
+    color: white;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.activeMenuRow .menuBar{
+    display: flex;
+    transform: scaleY(100%);
+}
+
+.activeMenuRow{
+    margin-top: -50px;
+    background-color: black;
+}
+
+.menuRow{
+    margin-top: -50px;
+    background-color: black;
+}
+
+.menuBar{
+    display: flex;
+    transform: scaleX(100%);
+}
+
+.siteTitle{
+    position: relative;
+    color: white;
+    font-size: 64px;
+    font-weight: bold;
+}
+
+.contacts{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.phoneTitle{
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.phone{
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.email{
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+}
+
+.email i{
+    font-size: 400%;
+}
+
+.emailList{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 28px;
+    padding-left: 10px;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.moreInfo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.lInfo{
+    line-height: 16px;
+    font-weight: 200;
+}
+
+.logo{
+    line-height: 90px;
+    font-size: 90px;
+    font-weight: 800;
+}
+
+.footerLinks ul{
+    list-style: none;
+    margin-bottom: 0;
+    max-width: 90%;
+}
+
+.footerLinks ul li{
+    display: inline-block;
+    margin-right: 40px;
+}
+
+.footerLinks ul li a{
+    display: block;
+    background-color: #236be7;
+    color: white;
+    text-decoration: none;
+    padding: 8px 26px 8px 26px;
+    border-radius: 24px;
+    transition: 0.4s all;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.footerLinks ul li a:hover{
+    color: black;
+    background-color: white;
+    box-shadow: 0 0 10px red;
+}
+
+.footerBox{
+    flex-direction: row;
+    display: flex;
+    padding: 40px;
+}
+
+.upScroll{
+    font-size: 42px;
+    color: #236be7;
+    transition: 0.6s all;
+    position: absolute;
+    right: 50px;
+    margin-top: -71px;
+    display: block;
+    transition: 0.5s all;
+}
+
+.upScroll:hover{
+    transform: rotate(360deg);
+    color: red;
+}
+
+
+@media (max-width: 1110px) { 
+    .siteTitle{
+        top: 10px;
+        position: absolute;
+        font-size: 48px;
+    }
+}
+
+ @media (max-width: 991.98px) { 
+    .siteTitle{
+        position: relative;
+        top: 0px;
+        color: white;
+        font-size: 32px;
+    }
+    .bar{
+        text-align: center;
+    }
+
+    .infoBlock{
+        padding: 40px;
+        padding-top: 0;
+    }
+    .info{
+        flex-direction: column;
+    }
+    .logo{
+        font-size: 70px;
+    }
+    .aboutBox{
+        flex-direction: column;
+    }
+    .footerBox{
+        flex-direction: column;
+    }
+    .moreInfo{
+        width: 100%;
+    }
+    .contacts{
+        width: 100%;
+    }
+}
+
+@media (max-width: 600px) { 
+    .menuBar .activeLink{
+        background-color: gainsboro;
+        color: black;
+    }
+    .menuBar{
+        transition: 0.4s all;
+        flex-direction: column;
+        padding: 0 !important;
+        transform: scaleY(0%);
+        margin-top: -150px;
+    }
+    .activeMenuRow .menuBar{
+        transition: 0.4s all;
+        transform: scaleY(100%);
+        margin-top: 50px;
+    }
+    .menuButton{
+        display: block;
+    }
+    .bar{
+        height: 50px;
+        background-color: gainsboro;
+        z-index: 8;
+    }
+    .siteTitle{
+        color: black;
+    }
+    .line3{
+        background-color: black;
+    }
+    .line2{
+        background-color: black;
+    }
+    .line1{
+        background-color: black;
+    }
+ }
+
+.displayNone{
+    display: none;
+}
