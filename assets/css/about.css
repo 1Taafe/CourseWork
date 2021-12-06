@@ -1,5 +1,5 @@
 #aboutBody{
-    background-color: black;
+    background-color: rgb(0, 0, 0);
 }
 
 .aboutTitle{
@@ -31,7 +31,6 @@
     transition: 1s all;
     transform: scaleX(0%);
     opacity: 0;
-    box-shadow: 0 0 16px red;
     padding: 16px;
     margin-left: 48px;
     margin-right: 48px;
@@ -44,17 +43,22 @@
 .prefLink{
     text-decoration: none;
     color: #004cd0;
-    transition: 0.3s all;
+    transition: 1s all;
 }
 
-.pref:hover{
-    background-color: black;
-    color: white;
+.prefLink:hover .prefLinkIcon{
+    transform: rotate(360deg);
+    font-size: 64px;
 }
 
-.comm:hover{
-    background-color: black;
-    color: white;
+.prefLinkIcon{
+    transform: rotate(0deg);
+    font-size: 24px;
+    display: block;
+    transition: 0.5s all;
+    margin: 0 auto;
+    margin-top: 10px;
+    max-width: 80px;
 }
 
 .comm{
@@ -70,7 +74,6 @@
     padding-top: 20px;
     opacity: 0;
     transform: scaleX(0);
-    box-shadow: 0 0 16px red;
     margin-left: 48px;
     margin-right: 48px;
     margin-bottom: 12px;
@@ -121,19 +124,6 @@
     font-size: 500%;
 }
 
-.prefLink:hover .prefLinkIcon{
-    margin-left: 50%;
-    font-size: 48px;
-    margin-top: 16px;
-}
-
-.prefLinkIcon{
-    transition: 0.7s all;
-    font-size: 24px;
-    display: block;
-    margin-top: 10px;
-}
-
 .pref1{
     font-size: 200%;
     line-height: 32px;
@@ -157,20 +147,14 @@
     transform: scaleY(0%);
     transition: 1s all;
     opacity: 0;
-    box-shadow: 0 0 16px red;
-}
-
-.aboutBox:hover{
-    background-color: black;
-    color: white;
 }
 
 .commTitle{
-    font-size: 80px;
-    text-align: right;
+    font-size: 48px;
     font-weight: 600;
     margin-bottom: 20px;
-    margin-top: 50px;
+    margin-top: -20px;
+    text-align: right;
 }
 
 .commForm{
@@ -178,9 +162,7 @@
     flex-direction: column-reverse;
     justify-content: center;
     margin-top: 60px;
-    box-shadow: 0 0 10px red;
     padding: 40px;
-    padding-bottom: 100px;
     background-color: white;
     border-radius: 80px;
 }
@@ -191,6 +173,7 @@
     margin-bottom: 16px;
     outline: none;
     transition: 0.6s all;
+    padding: 6px;
 }
 
 .myTextarea{
@@ -201,6 +184,7 @@
     resize: none;
     outline: none;
     transition: 0.6s all;
+    padding: 6px;
 }
 
 .myLabel{
@@ -216,24 +200,28 @@
 .myInput:focus{
     border: 2px solid red;
     padding: 12px;
+    border-radius: 0;
 }
 
 .myTextarea:focus{
     border: 2px solid red;
     padding: 12px;
+    border-radius: 0;
 }
 
 .myInput:focus + .myLabel{
     background-color: red;
+    border-radius: 0;
 }
 
 .myTextarea:focus + .myLabel{
     background-color: red;
+    border-radius: 0;
  }
 
 .addCommRow{
     background-color: black;
-    padding-bottom: 100px;
+    padding-bottom: 40px;
     display: none;
 }
 
@@ -242,14 +230,14 @@
 }
 
 .myButton{
-    width: 300px;
+    width: 240px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 40px;
+    margin-top: 12px;
     background-color: red;
     color: white;
     border: 0;
-    padding: 20px;
+    padding: 16px;
     border-radius: 80px 20px 80px 20px;
     transition: 0.4s all;
 }
@@ -262,9 +250,10 @@
 
 .commForm i{
     color: red;
-    font-size: 48px;
+    font-size: 36px;
     position: absolute;
     cursor: pointer;
+    margin-top: -12px;
 }
 
 
@@ -282,7 +271,6 @@
     font-weight: 300;
     opacity: 0;
     transform: scaleX(0);
-    box-shadow: 0 0 16px red;
     cursor: pointer;
 }
 
@@ -332,5 +320,19 @@
     }
     .commRow{
         margin-bottom: 0px;
+    }
+}
+
+@media (max-width: 600px){
+    .aboutTitle{
+        font-size: 60px;
+        padding-left: 24px;
+    }
+    
+    .aboutSubtitle{
+        font-size: 14px;
+        margin-top: -10px;
+        padding-left: 4px;
+        line-height: normal !important;
     }
 }

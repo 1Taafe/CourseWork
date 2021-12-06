@@ -10,7 +10,6 @@
     transition: 1s all;
     transform: scaleX(0%);
     opacity: 0;
-    box-shadow: 0 0 16px red;
     padding-left: 60px;
     padding-right: 60px;
     margin-bottom: 100px;
@@ -28,7 +27,7 @@
     font-size: 18px;
 }
 
-@keyframes mcolor{
+@keyframes mtrans{
     0%{
         color: black;
     }
@@ -42,7 +41,7 @@
 
 .info i{
     font-size: 160px;
-    animation: mcolor 10s infinite linear;
+    animation: mtrans 10s infinite linear;
 }
 
 .activePref{
@@ -64,6 +63,7 @@
     font-weight: 700;
     color: white;
     padding-top: 20px;
+    padding-left: 36px;
 }
 
 .infoBlock ul li{
@@ -78,5 +78,12 @@
     }
     .infoBlock ul{
         padding: 0;
+    }
+}
+
+@media (max-width: 600px){
+    .aboutTitle{
+        font-size: 60px;
+        padding-left: 24px;
     }
 }

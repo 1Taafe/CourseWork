@@ -86,7 +86,6 @@
     border-radius: 90px;
     transition: 0.8s all;
     font-weight: 300;
-    box-shadow: 0 0 16px red;
 }
 
 .sendComm:hover{

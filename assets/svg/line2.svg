@@ -1,0 +1,6 @@
+<svg id="Компонент_12_1" data-name="Компонент 12 – 1" xmlns="http://www.w3.org/2000/svg" width="1920" height="200" viewBox="0 0 1920 200">
+  <rect id="Прямоугольник_3" data-name="Прямоугольник 3" width="1920" height="200" rx="100"/>
+  <rect id="Прямоугольник_2" data-name="Прямоугольник 2" width="1920" height="92" transform="translate(0 108)" fill="red"/>
+  <text id="Offstore" transform="translate(130 148)" fill="#fff" stroke="#707070" stroke-width="1" font-size="120" font-family="Tahoma"><tspan x="0" y="0">Offstore</tspan></text>
+  <text id="магазин_портативного_аудио" data-name="магазин портативного аудио" transform="translate(130 177)" fill="#fff" stroke="#707070" stroke-width="1" font-size="38" font-family="Tahoma"><tspan x="0" y="0">магазин портативного аудио</tspan></text>
+</svg>

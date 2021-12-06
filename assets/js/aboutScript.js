@@ -25,29 +25,17 @@ sendComm.onclick = () => {
   for(let i = 0; i < commRows.length; i++){
     commRows[i].classList.add("displayNone");
   }
-  for(let i = 0; i < titleRows.length; i++){
-    titleRows[i].classList.add("displayNone");
-  }
-  for(let i = 0; i < prefRows.length; i++){
-    prefRows[i].classList.add("displayNone");
-  }
   sendComm.classList.add("displayNone");
   commRow.classList.add("activeCommRow")
   commForm.scrollIntoView({
     behavior: "smooth",
-    block:    "start" 
+    block:    "center" 
  });
 }
 
 closeForm.onclick = () => {
   for(let i = 0; i < commRows.length; i++){
     commRows[i].classList.remove("displayNone");
-  }
-  for(let i = 0; i < titleRows.length; i++){
-    titleRows[i].classList.remove("displayNone");
-  }
-  for(let i = 0; i < prefRows.length; i++){
-    prefRows[i].classList.remove("displayNone");
   }
   document.forms.commForm.reset();
   sendComm.classList.remove("displayNone");

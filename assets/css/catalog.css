@@ -104,6 +104,7 @@
     border-radius: 60px 16px 60px 16px;
     text-align: center;
     font-size: larger;
+    box-shadow: 0 0 32px rgba(0, 0, 0, 0.5);
 }
 
 .cButton:hover{
@@ -122,9 +123,10 @@
 .catalogCards{
     border-radius: 32px;
     margin: 16px 24px 32px 24px;
-    border: 1px solid rgba(0,0,0, 0.2);
+    /*border: 1px solid rgba(0,0,0, 0.2);*/
+    box-shadow: 0 0 32px rgba(0,0,0, 0.17);
     padding: 16px;
-    min-height: 390px;
+    min-height: 420px;
 }
 
 @media (min-width: 992px) and (max-width: 1420px){
@@ -247,6 +249,10 @@
     right: 12px;
 }
 
+.closeInfo:hover{
+    color: red;
+}
+
 .cardMoreInfo{
     display: flex;
     position: absolute;
@@ -256,7 +262,7 @@
     align-items: center;
     padding-top: 32px;
     padding-bottom: 64px;
-    transition: 1s all;
+    transition: 0.7s all;
     transform: scaleX(0);
     z-index: 5;
     border: 1px solid rgba(37, 22, 22, 0.149);
@@ -336,7 +342,7 @@
     margin: 0 auto;
 }
 
-@media (min-width: 992.22px) and (max-width: 1200px){
+@media (min-width: 992px) and (max-width: 1200px){
     .catalogCards{
         margin: 16px 8px 32px 8px;
         padding: 8px;
@@ -397,8 +403,6 @@
 
 .features{
     margin-top: 8px;
-    display: flex;
-    flex-direction: row;
 }
 
 .itemImage{
@@ -432,6 +436,9 @@
     border-radius: 20px;
     white-space: nowrap;
     font-weight: 300;
+    float: left;
+    margin-bottom: 10px;
+    text-align: center;
 }
 
 .cost{
@@ -449,29 +456,15 @@
     }
 }
 
-@media (max-width: 1235px) { 
-
+@media (max-width: 850px) { 
     .features div{
-        font-size: 10px;
+        font-size: 12px;
     }
 }
 
-@media (max-width: 850px) { 
-
-    .features{
-        flex-direction: column;
-        align-items: flex-start;
-    }
+@media (max-width: 650px){
     .itemInfo{
         flex-direction: column;
-    }
-    .cost{
-        margin: 0;
-    }
-    .features div{
-        margin-bottom: 10px;
-        text-align: center;
-        font-size: 12px;
     }
 }
 
@@ -528,11 +521,11 @@ a:hover{
 }
 
 .cartTitle{
-    font-size: 80px;
-    text-align: right;
+    font-size: 48px;
     font-weight: 600;
     margin-bottom: 20px;
-    margin-top: 50px;
+    margin-top: -20px;
+    text-align: right;
 }
 
 .orderForm{
@@ -540,11 +533,9 @@ a:hover{
     flex-direction: column-reverse;
     justify-content: center;
     margin-top: 60px;
-    box-shadow: 0 0 10px red;
     padding: 40px;
-    padding-bottom: 100px;
     background-color: white;
-    border-radius: 80px;
+    border-radius: 64px;
 }
 
 .myInput{
@@ -553,23 +544,24 @@ a:hover{
     margin-bottom: 16px;
     outline: none;
     transition: 0.6s all;
-    padding: 2px;
-    padding-left: 8px;
+    padding: 6px;
 }
 
 .myInput:focus{
     border: 2px solid red;
     padding: 12px;
+    border-radius: 0;
 }
 
 .myInput:focus + .myLabel{
     background-color: red;
+    border-radius: 0;
 }
 
 .myLabel{
     color: white;
     background-color: black;
-    width: 160px;
+    width: 168px;
     margin-left: 20px;
     text-align: center;
     border-radius: 40px 40px 0 0;
@@ -587,14 +579,14 @@ a:hover{
 }
 
 .myButton{
-    width: 300px;
+    width: 240px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 40px;
+    margin-top: 12px;
     background-color: red;
     color: white;
     border: 0;
-    padding: 20px;
+    padding: 16px;
     border-radius: 80px 20px 80px 20px;
     transition: 0.4s all;
 }
@@ -607,9 +599,10 @@ a:hover{
 
 .orderForm i{
     color: red;
-    font-size: 48px;
+    font-size: 36px;
     position: absolute;
     cursor: pointer;
+    margin-top: -12px;
 }
 
 @media (max-width: 600px) { 
@@ -622,6 +615,7 @@ a:hover{
     .catalogTitle2{
         font-size: 64px;
     }
+    
  }
 
  @media (max-width: 600px) { 
@@ -682,7 +676,8 @@ a:hover{
 }
 
 .accordion-item{
-    border: 1px solid rgba(0,0,0, 0.2)
+    border: 1px solid rgba(0,0,0, 0.04) !important;
+    box-shadow: 0 0 32px rgba(0, 0, 0, 0.17);
 }
 
 .sticky-top{
