@@ -6,6 +6,17 @@
     font-family: 'Exo 2', Tahoma;
 }
 
+*::-webkit-scrollbar{
+    width: 10px;
+    background-color: black;
+}
+
+*::-webkit-scrollbar-thumb{
+    background-color: white;
+    border-radius: 32px;
+    border: 4px solid black;
+}
+
 .bar{
     background-color: black;
     height: 100px;
@@ -323,6 +334,21 @@
         background-color: black;
     }
  }
+
+@media (max-width: 450px){
+    .logo{
+        font-size: 46px;
+    }
+    .phone{
+        font-size: 28px;
+    }
+    .emailList{
+        font-size: 16px;
+    }
+    .personEmail i{
+        display: none;
+    }
+}
 
 .displayNone{
     display: none;

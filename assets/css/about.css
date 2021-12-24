@@ -336,3 +336,17 @@
         line-height: normal !important;
     }
 }
+
+@media (max-width: 450px){
+    .aboutTitle{
+        font-size: 40px;
+        line-height: 52px;
+    }
+    .aboutBox{
+        padding: 26px;
+        margin: 8px;
+    }
+    .myButton{
+        width: 180px;
+    }
+}

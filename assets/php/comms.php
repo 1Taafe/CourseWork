@@ -22,6 +22,6 @@ $sql = "INSERT INTO comms (Имя, Email, Отзыв)
 $conn->query($sql);
 
 $conn->close();
-header('location: ../../about.php');
+header('location: ../../about.php#comms');
 
 ?>

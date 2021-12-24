@@ -123,7 +123,7 @@
 
         <div class="row titleRow">
           <div class="col-lg-1"></div>
-          <div class="col-lg-11 aboutTitle">Отзывы
+          <div class="col-lg-11 aboutTitle" id="comms">Отзывы
             <div class="aboutSubtitle">от покупателей (отображается 5 последних отзывов)</div>
           </div>
         </div>

@@ -124,7 +124,7 @@
     border-radius: 32px;
     margin: 16px 24px 32px 24px;
     /*border: 1px solid rgba(0,0,0, 0.2);*/
-    box-shadow: 0 0 32px rgba(0,0,0, 0.17);
+    box-shadow: 0 0 32px rgba(0,0,0, 0.2);
     padding: 16px;
     min-height: 420px;
 }
@@ -265,7 +265,7 @@
     transition: 0.7s all;
     transform: scaleX(0);
     z-index: 5;
-    border: 1px solid rgba(37, 22, 22, 0.149);
+    box-shadow: 0 0 32px rgba(0,0,0, 0.2);
     border-radius: 24px;
     left: 50%;
     margin-left: -44%;
@@ -452,7 +452,7 @@
 
 @media (max-width: 1110px) { 
     .carousel-caption{
-        font-size: 28px !important;
+        font-size: 28px;
     }
 }
 
@@ -637,6 +637,40 @@ a:hover{
     }
  }
 
+ @media (max-width: 450px){
+     .brands{
+         padding-left: 0;
+         padding-right: 0;
+     }
+
+     .catalogTitle span{
+         font-size: 40px;
+         line-height: 40px;
+     }
+
+     .catalogTitle2 span{
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    .cButton{
+        right: 10%;
+    }
+    .cartTitle{
+        font-size: 36px;
+        line-height: 60px;
+    }
+    .myButton{
+        width: 180px;
+    }
+    .activeCardsRow{
+        padding-bottom: 1100px;
+    }
+    .carousel-caption{
+        font-size: 20px;
+    }
+ }
+
  .activeMenuButton .line1{
     background-color: red !important;
 }
@@ -677,7 +711,7 @@ a:hover{
 
 .accordion-item{
     border: 1px solid rgba(0,0,0, 0.04) !important;
-    box-shadow: 0 0 32px rgba(0, 0, 0, 0.17);
+    box-shadow: 0 0 32px rgba(0, 0, 0, 0.2);
 }
 
 .sticky-top{

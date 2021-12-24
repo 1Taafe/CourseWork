@@ -87,3 +87,10 @@
         padding-left: 24px;
     }
 }
+
+@media (max-width: 450px){
+    .aboutTitle{
+        font-size: 40px;
+        line-height: 52px;
+    }
+}
